@@ -35,6 +35,9 @@ for filename in os.listdir(r"./strings"):
             open(r"./strings/" + filename, encoding="utf8")
         )
 
+"SUPPORT_CHAT": {
+        "description": "Link of your telegram support group. (Must pe public)",
+        "value": "https://t.me/Ajanabee_Duniya",
 
 for filename in os.listdir(r"./strings/langs/"):
     if "en" not in languages:
