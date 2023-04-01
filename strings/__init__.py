@@ -35,9 +35,6 @@ for filename in os.listdir(r"./strings"):
             open(r"./strings/" + filename, encoding="utf8")
         )
 
-for "SUPPORT_CHAT": { "description": "Link of your telegram support group. (Must pe public)",
-        "value": "https://t.me/Ajanabee_Duniya",
-
 for filename in os.listdir(r"./strings/langs/"):
     if "en" not in languages:
         languages["en"] = yaml.safe_load(
