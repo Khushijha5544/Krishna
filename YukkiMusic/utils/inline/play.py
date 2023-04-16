@@ -40,6 +40,14 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
+      [
+                InlineKeyboardButton(
+                    text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}"
+                ),
+                InlineKeyboardButton(
+                    text=_["S_B_3"], url=f"{SUPPORT_GROUP}"
+                ),
+            ]
         [
             InlineKeyboardButton(
                 text=_["PL_B_2"],
