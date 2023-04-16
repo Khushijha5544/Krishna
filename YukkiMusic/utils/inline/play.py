@@ -40,14 +40,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
-      [
-                InlineKeyboardButton(
-                    text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}"
-                ),
-                InlineKeyboardButton(
-                    text=_["S_B_3"], url=f"{SUPPORT_GROUP}"
-                ),
-            ]
+  
         [
             InlineKeyboardButton(
                 text=_["PL_B_2"],
@@ -111,7 +104,14 @@ def stream_markup(_, videoid, chat_id):
         ],
     ]
     return buttons
-
+[
+                InlineKeyboardButton(
+                    text=_["𝐂𝐇𝐀𝐍𝐍𝐄𝐋"], url=f"{SUPPORT_CHANNEL}"
+                ),
+                InlineKeyboardButton(
+                    text=_["𝐆𝐑𝐎𝐔𝐏"], url=f"{SUPPORT_GROUP}"
+                ),
+            ]
 
 def telegram_markup(_, chat_id):
     buttons = [
